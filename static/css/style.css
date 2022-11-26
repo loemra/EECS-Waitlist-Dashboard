@@ -1,0 +1,89 @@
+h1 {
+    color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+body {
+    margin: 40px;
+    font: normal 10px Verdana, Arial, sans-serif;
+}
+
+.atlas {
+    color: white
+}
+  
+.wrapper {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-gap: 10px;
+}
+
+.open {
+    background-color: rgb(119, 188, 70);
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.closed {
+    background-color: rgb(218, 76, 76);
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 140%;
+}
+
+.abbrev {
+    font-weight: normal;
+    font-size: 120%;
+}
+
+.label {
+    font-style: italic;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 300%;
+    text-align: center;
+}
+
+.reset {
+    color: black;
+    font-size: 200%;
+    text-align: center;
+}
+
+.seshform {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+}
+
+input[type=text] {
+    width: 300px;
+}
+
+.signout {
+    float: right;
+    font-size: 200%;
+    color: black;
+}
+
+.parent {
+    display: flex;
+}
+
+.child {
+    flex: 1;
+}

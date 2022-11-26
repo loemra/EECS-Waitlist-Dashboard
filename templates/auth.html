@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="https://stackedit.io/style.css" />
+{% endblock %}
+
+{% block title %}EECS ULCS{% endblock %}
+
+{% block main %}
+
+<h1>Atlas Session Id:</h1>
+
+<div class="seshform">
+    <form method="post">
+        <input type="text" name="sessionid"
+                placeholder=""
+                value="{{ request.form['sessionid'] }}"></input>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<br>
+
+<div class="stackedit__html"><h1 id="how-to-find-atlas-session-id">How to find Atlas Session Id</h1>
+    <ol>
+        <li>Go to <a href="https://atlas.ai.umich.edu/" target="_blank">https://atlas.ai.umich.edu/</a></li>
+        <li>Make sure you are logged in.</li>
+        <li>Right click anywhere on the page and press inspect.<br>
+        <img src="https://drive.google.com/uc?export=view&amp;id=11hpQRY8YbwAOZwPDEmOBDdu_5E0KJFd-" alt="Inspect on Atlas"></li>
+        <li>Navigate to the network tab.<br>
+        <img src="https://drive.google.com/uc?export=view&amp;id=19smRjGSis_lelWXnMzE4wbS2mSig4-3j" alt="Inspect on Atlas"></li>
+        <li>Refresh the page.</li>
+        <li>Select any request with the <code>atlas.ai.umich.edu</code> domain.</li>
+        <li>Navigate to the Cookies tab.</li>
+        <li>Scroll down until you find <code>sessionid</code> and copy the value.<br>
+        <img src="https://drive.google.com/uc?export=view&amp;id=1kX4KwUuHc9CoQU4bBiqu_DWVBcaxt_ik" alt="Inspect on Atlas"></li>
+        <li>You’re done! Use that sessionid to authenticate in the dashboard.</li>
+    </ol>
+</div>
+  
+{% endblock %}

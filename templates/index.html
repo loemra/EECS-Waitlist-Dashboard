@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}EECS ULCS{% endblock %}
+
+{% block main %}
+
+<div class="parent">
+    <div class="child">
+        <h1 class="title">EECS ULCS Dashboard</h1>
+    </div>
+    <div class="child">
+        <a href="{{ url_for('auth') }}" class="signout">Sign Out</a>
+    </div>
+    <br>
+</div>
+
+<div class="wrapper">
+    {% for i in data %}
+        <div class={{i.status}}>
+            <a href={{i.link}} class="atlas" target="_blank"> <div class="name">{{i.name}}</div> </a> <br>
+            <div class="abbrev">{{i.abbrev}}</div> <br>
+            {% if i.status == "open" %}
+                <div class="label">Open seats:</div> <br>
+            {% else %}
+                <div class="label">On waitlist:</div> <br>
+            {% endif %}
+            <div class="number">{{i.number}}</div> <br>
+        </div>
+    {% endfor %}
+</div>
+  
+{% endblock %}
