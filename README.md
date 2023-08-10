@@ -7,14 +7,14 @@ CS classes at UMich are notorious for filling up within the first couple registr
     <li>Go to <a href="https://atlas.ai.umich.edu/" target="_blank">https://atlas.ai.umich.edu/</a></li>
     <li>Make sure you are logged in.</li>
     <li>Right click anywhere on the page and press inspect.<br></li>
-    ![instruction_1](https://github.com/loemra/EECS-Waitlist-Dashboard/assets/112432339/ae3a028b-fbb5-47dd-a80d-d304bd39543c)
+    <img src="https://github.com/loemra/EECS-Waitlist-Dashboard/assets/112432339/ae3a028b-fbb5-47dd-a80d-d304bd39543c" alt="Inspect">
     <li>Navigate to the network tab.<br></li>
-    ![instruction_2](https://github.com/loemra/EECS-Waitlist-Dashboard/assets/112432339/2e238810-772d-4fc5-80dd-07af01623455)
+    <img src="https://github.com/loemra/EECS-Waitlist-Dashboard/assets/112432339/2e238810-772d-4fc5-80dd-07af01623455" alt="Network">
     <li>Refresh the page.</li>
     <li>Select any request with the <code>atlas.ai.umich.edu</code> domain.</li>
     <li>Navigate to the Cookies tab.</li>
     <li>Scroll down until you find <code>sessionid</code> and copy the value.<br></li>
-    ![instruction_3](https://github.com/loemra/EECS-Waitlist-Dashboard/assets/112432339/36655fdd-cad8-4d98-806a-7f68540737ac)
+    <img src="https://github.com/loemra/EECS-Waitlist-Dashboard/assets/112432339/36655fdd-cad8-4d98-806a-7f68540737ac" alt="Cookies">
     <li>You’re done! Use that sessionid to authenticate in the dashboard.</li>
 </ol>
 
