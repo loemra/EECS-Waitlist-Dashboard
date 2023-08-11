@@ -153,6 +153,9 @@ async def index():
         print("Got classes succesfully.")
 
         for j in jsons_list:
+            if not j:
+                continue
+
             lecture_open = 0
             lecture_wait = 0
             open_seats = 0
