@@ -2,6 +2,7 @@ import asyncio
 import urllib.parse
 
 import aiohttp
+import requests
 from flask import (Flask, make_response, redirect, render_template, request,
                    url_for)
 
@@ -101,10 +102,13 @@ async def get(url, session):
 
 
 async def get_classes(urls, sessionid):
-    async with aiohttp.ClientSession(
-        cookies={"sessionid": sessionid}
-    ) as session:
-        ret = await asyncio.gather(*[get(url, session) for url in urls])
+    with requests.Session() as s:
+        s.cookies.set("sessionid", sessionid)
+        ret = await asyncio.gather(*[get(url, s) for url in urls])
+    # async with aiohttp.ClientSession(
+    #    cookies={"sessionid": sessionid}
+    # ) as session:
+    #    ret = await asyncio.gather(*[get(url, session) for url in urls])
     print("Finalized all. Return is a list of len {} outputs.".format(len(ret)))
     return ret
 
