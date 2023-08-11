@@ -1,0 +1,59 @@
+ * Debug mode: off
+sessionid: ur299lfj62k31emnue7gvd3koikho3ku
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20390/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20477/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20427/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20373/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20486/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20475/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20493/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20442/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20445/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20482/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20484/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20492/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20470/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20388/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20481/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20487/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20489/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20490/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20483/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20485/
+Finalized all. Return is a list of len 20 outputs.
+made it here.
+made it here.
+made it here.
+made it here.
+made it here.
+made it here.
+[{'link': 'https://atlas.ai.umich.edu/course/EECS%20373/', 'name': 'Intro Embed Sys Des', 'abbrev': 'EECS373', 'status': 'open', 'number': 67}, {'link': 'https://atlas.ai.umich.edu/course/EECS%20388/', 'name': 'Intro Comp Security', 'abbrev': 'EECS388', 'status': 'open', 'number': 315}]
+sessionid: ur299lfj62k31emnue7gvd3koikho3ku
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20427/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20475/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20373/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20442/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20477/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20388/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20445/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20486/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20390/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20470/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20481/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20492/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20490/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20489/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20493/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20487/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20483/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20484/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20482/
+Successfully got url https://atlas.ai.umich.edu/api/section-table-data/EECS%20485/
+Finalized all. Return is a list of len 20 outputs.
+made it here.
+made it here.
+made it here.
+made it here.
+made it here.
+made it here.
+[{'link': 'https://atlas.ai.umich.edu/course/EECS%20373/', 'name': 'Intro Embed Sys Des', 'abbrev': 'EECS373', 'status': 'open', 'number': 67}, {'link': 'https://atlas.ai.umich.edu/course/EECS%20388/', 'name': 'Intro Comp Security', 'abbrev': 'EECS388', 'status': 'open', 'number': 315}]
