@@ -27,3 +27,6 @@ https://waitlist-dashboard.fly.dev/
 
 
 ## TO-DO:
+- Allow users to add custom classes to their dashboard.
+- Allow re-ordering of classes.
+- Try and find a way around using Atlas sessionids.
