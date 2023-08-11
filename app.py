@@ -154,6 +154,7 @@ async def index():
 
         for j in jsons_list:
             if not j:
+                print("not j")
                 continue
 
             lecture_open = 0
