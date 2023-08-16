@@ -30,3 +30,4 @@ https://waitlist-dashboard.fly.dev/
 - Allow users to add custom classes to their dashboard.
 - Allow re-ordering of classes.
 - Try and find a way around using Atlas sessionids.
+    - Transition to this API: https://dir.api.it.umich.edu/
